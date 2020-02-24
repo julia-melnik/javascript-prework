@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  height: 100vh;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: Inconsolata serif;
+  margin:0;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(https://i.postimg.cc/wjBJ4TNS/black-and-white-blank-challenge-connect-262488.jpg);
+}
+h1 {
+  position: relative;
+  margin-top:250px;
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: #9F42FF;
+}
+.buttons{
+  width: 800px;
+  max-width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+button {
+  padding: 11px 50px;
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+	color: #9F42FF;
+  background-color: white ;
+	border: 2px solid #9F42FF;
+  border-radius: 4px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  overflow: hidden;
+}
+button:hover {
+  background-color:#9F42FF;
+  color:white;
+}
